@@ -125,6 +125,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\ScriptCs.Engine.Clojure\ScriptCs.Engine.Clojure.csproj">
+      <Project>{921fe303-ad1d-4cfd-84d0-a00ba15307f6}</Project>
+      <Name>ScriptCs.Engine.Clojure</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ScriptCs.Contracts\ScriptCs.Contracts.csproj">
       <Project>{6049e205-8b5f-4080-b023-70600e51fd64}</Project>
       <Name>ScriptCs.Contracts</Name>
